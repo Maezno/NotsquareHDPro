@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?><!-- This is for Atom Launcher -->
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This is for Atom Launcher -->
 <themeInfo>
-    <packageName>jahirfiquitiva.paperboard.sample</packageName>
+    <packageName>dev.jahir.blueprint.app</packageName>
     <versionName>1.0</versionName>
     <versionCode>1</versionCode>
-    <themeName>PaperBoard Sample</themeName>
+    <themeName>Blueprint</themeName>
     <!-- Default Component Color -->
-    <themePointColor>#2196f3</themePointColor>
+    <themePointColor>#00b0ff</themePointColor>
     <themePreview img1="preview1" />
     <preview img1="preview1" />
 </themeInfo>

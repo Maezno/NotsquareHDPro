@@ -1,49 +1,87 @@
 apply plugin: 'com.android.application'
-
-repositories {
-    mavenCentral()
-	maven { url 'https://dl.bintray.com/drummer-aidan/maven' }
-}
+apply plugin: 'org.jetbrains.kotlin.android'
+apply plugin: 'kotlin-parcelize'
+apply plugin: 'com.google.devtools.ksp'
 
 android {
-    compileSdkVersion 34
-
-    defaultConfig {
-        applicationId "icon.maezno.pro"
-        minSdkVersion 33
-        targetSdkVersion 33
-        versionCode 1
-        versionName "1.0"
+    lint {
+        abortOnError false
+        checkReleaseBuilds true
+        disable 'MissingTranslation', 'GoogleAppIndexingWarning'
     }
+
+    namespace MyApp.appId
+    defaultConfig {
+        buildConfigField("String", "ONESIGNAL_APP_ID", "\"$OneSignal.appId\"")
+        manifestPlaceholders = [
+                onesignal_app_id               : OneSignal.appId,
+                onesignal_google_project_number: OneSignal.googleProjectNumber
+        ]
+        applicationId MyApp.appId
+        minSdkVersion Versions.minSdk
+        compileSdk Versions.targetSdk
+        targetSdkVersion Versions.targetSdk
+        versionCode MyApp.version
+        versionName MyApp.versionName
+        setProperty("archivesBaseName", applicationId + "-" + versionName)
+        vectorDrawables.useSupportLibrary = true
+        proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
+        consumerProguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
+
+        ksp {
+            arg("room.schemaLocation", "$projectDir/schemas")
+            arg("room.incremental", "true")
+            arg("room.expandProjection", "true")
+        }
+    }
+
     buildTypes {
-        debug {
-            minifyEnabled true
-            shrinkResources false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        buildTypes.each {
+            it.buildConfigField("String", "ONESIGNAL_APP_ID", "\"$OneSignal.appId\"")
         }
         release {
+            debuggable false
+            zipAlignEnabled true
             minifyEnabled true
             shrinkResources false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
+            consumerProguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
         }
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    packagingOptions {
+        resources {
+            pickFirsts += [
+                    'META-INF/core_debug.kotlin_module',
+                    'META-INF/core_release.kotlin_module',
+                    'META-INF/library_debug.kotlin_module',
+                    'META-INF/library_release.kotlin_module'
+            ]
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    buildFeatures {
+        buildConfig = true
     }
 }
 
-//dependencies {
-//    compile fileTree(include: ['*.jar'], dir: 'libs')
-//    compile 'com.android.support:appcompat-v7:28.0.0@aar'
-//    compile 'com.android.support:support-v4:28.0.0@aar'
-//    compile 'com.android.support:cardview-v7:28.0.0@aar'
-//    compile 'com.android.support:palette-v7:28.0.0@aar'
-//    compile 'com.android.support:recyclerview-v7:28.0.0@aar'
-//    compile 'com.afollestad:material-dialogs:0.7.5.2'
-//    compile('com.mikepenz:materialdrawer:3.0.5@aar') {
-//        transitive = true
-//    }
-//    compile 'com.melnykov:floatingactionbutton:1.3.0'
-//    compile 'com.balysv:material-ripple:1.0.2'
-//    compile 'com.squareup.picasso:picasso:2.5.2'
-//    compile 'com.squareup.okhttp:okhttp:2.3.0'
-//    compile 'com.squareup.okhttp:okhttp-urlconnection:2.3.0'
-//    compile 'com.google.android.apps.muzei:muzei-api:2.0'
-//}
+dependencies {
+    implementation(Libs.blueprint) {
+        transitive = true
+    }
+    // TODO: Remove comment marks to enable
+    // implementation Libs.oneSignal
+}
