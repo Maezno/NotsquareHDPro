@@ -1,12 +1,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="dev.jahir.blueprint.app">
+    package="icon.maezno.pro">
 
     <!-- Permission required for donations. Remove it if you don't use it -->
     <uses-permission android:name="com.android.vending.BILLING" />
 
     <application
-        android:name=".MyApplication"
+        android:name="icon.maezno.pro.MyApplication"
         android:allowBackup="true"
         android:enableOnBackInvokedCallback="true"
         android:fullBackupContent="true"
@@ -20,7 +20,7 @@
         tools:ignore="UnusedAttribute">
 
         <activity
-            android:name=".MainActivity"
+            android:name="icon.maezno.pro.MainActivity"
             android:exported="true"
             android:label="@string/app_name">
 
@@ -237,7 +237,7 @@
 
         <!-- Muzei Service -->
         <provider
-            android:name=".MuzeiService"
+            android:name="icon.maezno.pro.MuzeiService"
             android:authorities="${applicationId}.muzei"
             android:exported="true"
             android:icon="@drawable/ic_muzei_icon"

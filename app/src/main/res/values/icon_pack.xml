@@ -1,105 +1,515 @@
-<?xml version="1.0" encoding="utf-8"?><!--suppress CheckTagEmptyBody -->
-<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="ExtraTranslation">
-
-    <!-- Make sure to put at least 8 icons -->
-    <string-array name="icons_preview">
-        <item>adaptive_one</item>
-        <item>adaptive_two</item>
-        <item>adaptive_three</item>
-        <item>amber_circle</item>
-        <item>amber_rectangle</item>
-        <item>amber_square</item>
-        <item>blue_circle</item>
-        <item>blue_rectangle</item>
-        <item>blue_square</item>
-        <item>purple_circle</item>
-        <item>purple_rectangle</item>
-        <item>purple_square</item>
-        <item>red_circle</item>
-        <item>red_rectangle</item>
-        <item>red_square</item>
-    </string-array>
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
 
     <!-- These sections below are for your "Previews" section -->
     <!-- These names should match YOUR actual icon names
     	 the names used below are just for sampling purposes -->
 
-    <!-- Make sure the filters names are the same as the other arrays -->
-    <string-array name="icon_filters">
-        <item>all</item>
-        <item>adaptive</item>
-        <item>amber</item>
-        <item>blue</item>
-        <item>purple</item>
-        <item>red</item>
-        <item>circles</item>
-        <item>rectangles</item>
-        <item>squares</item>
+    <!-- LATEST ICONS -->
+    <!-- All of your Latest icons listed here -->
+    <string-array name="latest">
+		<item>agario</item>
+		<item>maxthon</item>
+		<item>badoo</item>
+		<item>despegar</item>
+		<item>kiwi_camera</item>
+		<item>lidow</item>
+		<item>mi_claro</item>
+		<item>photofy</item>
+		<item>snapchat</item>
+		<item>tinder</item>
+
+
+
     </string-array>
 
-    <string-array name="all">
-        <item>amber_circle</item>
-        <item>amber_rectangle</item>
-        <item>amber_square</item>
-        <item>blue_circle</item>
-        <item>blue_rectangle</item>
-        <item>blue_square</item>
-        <item>purple_circle</item>
-        <item>purple_rectangle</item>
-        <item>purple_square</item>
-        <item>red_circle</item>
-        <item>red_rectangle</item>
-        <item>red_square</item>
+    <!-- SYSTEM ICONS -->
+    <!-- System icons listed here -->
+    <string-array name="system">
+        <item>audio_fx</item>
+        <item>android_documents</item>
+        <item>calendar</item>
+        <item>browser</item>
+        <item>calculator</item>
+        <item>camera</item>
+        <item>clock</item>
+        <item>downloads</item>
+        <item>contacts_new</item>
+        <item>dsp_manager</item>
+        <item>email</item>
+        <item>gallery</item>
+        <item>file_manager</item>
+        <item>lg_backup</item>
+        <item>lg_clock</item>
+        <item>lg_calendar</item>
+        <item>lg_filemanager</item>
+        <item>lg_gallery</item>
+        <item>lg_internet</item>
+        <item>lg_music</item>
+        <item>lg_messages</item>
+        <item>lg_qmemo</item>
+        <item>lg_radio</item>
+        <item>lg_recents</item>
+        <item>lg_smartworld</item>
+        <item>lg_tasks</item>
+        <item>lg_thinkfree</item>
+        <item>lg_updatecenter</item>
+        <item>lg_weather</item>
+        <item>lg_camera</item>
+        <item>lg_videos</item>
+        <item>knox</item>
+        <item>samsung_album</item>
+        <item>samsung_allshare</item>
+        <item>samsung_apps</item>
+        <item>samsung_camera</item>
+        <item>samsung_clock</item>
+        <item>samsung_game</item>
+        <item>samsung_group_play</item>
+        <item>samsung_health</item>
+        <item>samsung_hub</item>
+        <item>samsung_kiesair</item>
+        <item>samsung_learning</item>
+        <item>samsung_link</item>
+        <item>samsung_memo</item>
+        <item>samsung_milk</item>
+        <item>samsung_music</item>
+        <item>samsung_music2</item>
+        <item>samsung_moreservices</item>
+        <item>samsung_note</item>
+        <item>samsung_optical_reader</item>
+        <item>samsung_photo_editor</item>
+        <item>samsung_reader</item>
+        <item>samsung_readershub</item>
+        <item>samsung_taskmanager</item>
+        <item>samsung_translate</item>
+        <item>samsung_scrapbook</item>
+        <item>samsung_social</item>
+        <item>samsung_sms</item>
+        <item>samsung_spen</item>
+        <item>samsung_suggest</item>
+        <item>samsung_video</item>
+        <item>samsung_videohub</item>
+        <item>samsung_wallet</item>
+        <item>samsung_watchon</item>
+        <item>svoice</item>
+        <item>settings</item>
+        <item>sim_info</item>
+        <item>sound_recorder</item>
+        <item>torch</item>
+
+
+
+
+
+
+
+
+
+
+
     </string-array>
 
-    <string-array name="adaptive">
-        <item>adaptive_one</item>
-        <item>adaptive_two</item>
-        <item>adaptive_three</item>
+    <!-- GOOGLE APPS ICONS -->
+    <!-- Google Apps icons are listed here -->
+    <string-array name="google">
+        <item>google_play_new</item>
+        <item>google_plus</item>
+        <item>google_search</item>
+        <item>google_setting</item>
+        <item>google_photos</item>
+        <item>google_play</item>
+        <item>google_play2</item>
+        <item>gmail3</item>
+        <item>goggles</item>
+        <item>google_books</item>
+        <item>google_camera</item>
+        <item>google_docs</item>
+        <item>google_drive</item>
+        <item>google_earth</item>
+        <item>google_games</item>
+        <item>google_keyboard</item>
+        <item>google_kiosco</item>
+        <item>google_movies</item>
+        <item>google_music</item>
+        <item>google_sheets</item>
+        <item>google_sky</item>
+        <item>google_slides</item>
+        <item>google_translate</item>
+        <item>hangouts2</item>
+        <item>keep</item>
+        <item>inbox</item>
+        <item>maps2</item>
+        <item>youtube</item>
+
+
+
+
     </string-array>
 
-    <string-array name="amber">
-        <item>amber_circle</item>
-        <item>amber_rectangle</item>
-        <item>amber_square</item>
+    <!-- GAMES ICONS -->
+    <!-- Game icons are listed here -->
+    <string-array name="games">
+	<item>agario</item>
+        <item>the_simpsons</item>
+        <item>the_simpsons2</item>
+        <item>trivia_crack</item>
+        <item>trial_xtreme_four</item>
+        <item>zynga_poker</item>
+        <item>battle_camp</item>
+        <item>bomb_squad</item>
+        <item>aworded</item>
+        <item>candy_crush</item>
+        <item>clash_of_clans</item>
+        <item>dumb_ways</item>
+        <item>eight_ballpool</item>
+        <item>fifa14</item>
+        <item>fifa15</item>
+        <item>flick_shoot</item>
+        <item>geometry_dash</item>
+        <item>minecraft</item>
+        <item>monument_valley</item>
+        <item>plague</item>
+        <item>pou</item>
+		<item>spring_ninja</item>
+		<item>stick_hero</item>
     </string-array>
 
-    <string-array name="blue">
-        <item>blue_circle</item>
-        <item>blue_rectangle</item>
-        <item>blue_square</item>
+
+
+
+
+
+
+
+    <!-- ALL ICONS -->
+    <!-- All of your icons listed here -->
+    <string-array name="icon_pack" translatable="false">
+	
+		<item>agario</item>
+		<item>maxthon</item>
+		<item>badoo</item>
+		<item>despegar</item>
+		<item>kiwi_camera</item>
+		<item>lidow</item>
+		<item>mi_claro</item>
+		<item>photofy</item>
+		<item>snapchat</item>
+		<item>tinder</item>
+       <item>adfree</item>
+       <item>adm</item>
+       <item>adobereader</item>
+       <item>airdroid</item>
+       <item>android_documents</item>
+       <item>apollo</item>
+       <item>application_reader</item>
+       <item>app_drawer</item>
+       <item>aptoide</item>
+       <item>apus_launcher</item>
+       <item>audible</item>
+       <item>audio_fx</item>
+       <item>avast</item>
+       <item>aworded</item>
+       <item>azar_videochat</item>
+       <item>battery_calibration</item>
+       <item>battle_camp</item>
+       <item>bbm2</item>
+       <item>better_camera</item>
+       <item>bitmoji</item>
+       <item>blurred_ui</item>
+       <item>boat_browser</item>
+       <item>boat_mini</item>
+       <item>boat_tablet</item>
+       <item>boca_oficial</item>
+       <item>bomb_squad</item>
+       <item>browser</item>
+       <item>calculator</item>
+       <item>calendar</item>
+       <item>cambiador_voz</item>
+       <item>camera</item>
+       <item>camera_360</item>
+       <item>camera_fv</item>
+       <item>camera_mx</item>
+       <item>camera_mx_one</item>
+       <item>candy_crush</item>
+       <item>carousel</item>
+       <item>ccleaner</item>
+       <item>chaton</item>
+       <item>chrome</item>
+       <item>chrome_beta</item>
+       <item>chrome_remote</item>
+       <item>clash_of_clans</item>
+       <item>clean_master</item>
+       <item>clipper</item>
+       <item>clock</item>
+       <item>cm_browser</item>
+       <item>cm_security</item>
+       <item>cm_themes</item>
+       <item>color_picker</item>
+       <item>com_android_browser_browseractivity</item>
+       <item>contacts_new</item>
+       <item>cyandelta</item>
+       <item>cymera</item>
+       <item>dodol_launcher</item>
+       <item>dolphin</item>
+       <item>downloads</item>
+       <item>dropbox</item>
+       <item>dsp_manager</item>
+       <item>dumb_ways</item>
+       <item>du_booster</item>
+       <item>ebay</item>
+       <item>eight_ballpool</item>
+       <item>email</item>
+       <item>es_fm</item>
+       <item>evernote</item>
+       <item>facebook</item>
+       <item>facebook_groups</item>
+       <item>face_tune</item>
+       <item>fb_messenger</item>
+       <item>fifa14</item>
+       <item>fifa15</item>
+       <item>file_manager</item>
+       <item>firefox</item>
+       <item>firefox_beta</item>
+	   <item>flash_player</item>
+       <item>fleksy</item>
+       <item>flick_shoot</item>
+       <item>forshared</item>
+       <item>foursquare</item>
+       <item>freedom</item>
+       <item>futbol_para_todos</item>
+       <item>fx_explorer</item>
+       <item>fx_text</item>
+       <item>gallery</item>
+       <item>geometry_dash</item>
+       <item>gmail3</item>
+       <item>goggles</item>
+       <item>golauncherex</item>
+       <item>gonotif</item>
+       <item>google_books</item>
+       <item>google_camera</item>
+       <item>google_docs</item>
+       <item>google_drive</item>
+       <item>google_earth</item>
+       <item>google_games</item>
+       <item>google_keyboard</item>
+       <item>google_kiosco</item>
+       <item>google_movies</item>
+       <item>google_music</item>
+       <item>google_photos</item>
+       <item>google_play</item>
+       <item>google_play2</item>
+       <item>google_play_new</item>
+       <item>google_plus</item>
+       <item>google_search</item>
+       <item>google_setting</item>
+       <item>google_sheets</item>
+       <item>google_sky</item>
+       <item>google_slides</item>
+       <item>google_translate</item>
+       <item>gravitybox</item>
+       <item>greenify</item>
+       <item>hangouts</item>
+       <item>hangouts2</item>
+       <item>home_home2apps_button</item>
+       <item>iconback</item>
+       <item>icon_with_short_name</item>
+       <item>ic_allapps</item>
+       <item>ic_allapps_pressed</item>
+       <item>inbox</item>
+       <item>instagram</item>
+       <item>jordi</item>
+       <item>keep</item>
+       <item>kernel_tweaker</item>
+       <item>kik</item>
+       <item>knox</item>
+       <item>lg_backup</item>
+       <item>lg_calc</item>
+       <item>lg_calendar</item>
+       <item>lg_camera</item>
+       <item>lg_clock</item>
+       <item>lg_filemanager</item>
+       <item>lg_gallery</item>
+       <item>lg_internet</item>
+       <item>lg_messages</item>
+       <item>lg_music</item>
+       <item>lg_qmemo</item>
+       <item>lg_radio</item>
+       <item>lg_recents</item>
+       <item>lg_smartworld</item>
+       <item>lg_tasks</item>
+       <item>lg_thinkfree</item>
+       <item>lg_updatecenter</item>
+       <item>lg_videos</item>
+       <item>lg_weather</item>
+       <item>liga_argentina</item>
+       <item>line</item>
+       <item>link</item>
+       <item>linkedin</item>
+       <item>local</item>
+       <item>lucky_patcher</item>
+       <item>lumosity</item>
+       <item>maps</item>
+       <item>maps2</item>
+       <item>mega</item>
+       <item>mega_tv</item>
+       <item>mercadolibre</item>
+       <item>message</item>
+       <item>messenger</item>
+       <item>minecraft</item>
+       <item>mi_movistar</item>
+       <item>monument_valley</item>
+       <item>movie_studio_new</item>
+       <item>msn_weather</item>
+       <item>music_cm12</item>
+       <item>music_eq</item>
+       <item>musixmatch</item>
+       <item>mx_player</item>
+       <item>netflix</item>
+       <item>news_weather</item>
+       <item>nine_gag</item>
+       <item>nokia_here</item>
+       <item>nokia_here2</item>
+       <item>novathor_settings</item>
+       <item>nova_launcher</item>
+       <item>nova_launcher_prime</item>
+       <item>nova_setting</item>
+       <item>offtime</item>
+       <item>olx</item>
+       <item>on_screen_lg</item>
+       <item>open_camera</item>
+       <item>opera_mini</item>
+       <item>opera_mobile</item>
+       <item>outlook</item>
+       <item>painter</item>
+       <item>paypal</item>
+       <item>phone_new</item>
+       <item>picsart</item>
+       <item>pinterest</item>
+       <item>pixlr_express</item>
+       <item>plague</item>
+       <item>player_pro</item>
+       <item>player_pro_trial</item>
+       <item>pocket</item>
+       <item>pou</item>
+       <item>poweramp</item>
+       <item>precios_cuidados</item>
+       <item>precios_ok</item>
+       <item>preview1</item>
+       <item>preview2</item>
+       <item>puffin_academy</item>
+       <item>puffin_browser</item>
+       <item>puffin_free</item>
+       <item>quickpic</item>
+       <item>remote_call</item>
+       <item>repost</item>
+       <item>retrica</item>
+       <item>rom_installer</item>
+       <item>rootbrowser</item>
+       <item>rootex</item>
+       <item>rootex2</item>
+       <item>root_booster</item>
+       <item>samsung_apps</item>
+       <item>samsung_camera</item>
+       <item>samsung_clock</item>
+       <item>samsung_convoice</item>
+       <item>samsung_filemanager</item>
+       <item>samsung_game</item>
+       <item>samsung_learning</item>
+       <item>samsung_memo</item>
+       <item>samsung_music</item>
+       <item>samsung_music2</item>
+       <item>samsung_musichub</item>
+       <item>samsung_optical_reader</item>
+       <item>samsung_sms</item>
+       <item>samsung_spen</item>
+       <item>samsung_translate</item>
+       <item>samsung_video</item>
+       <item>samsung_wallet</item>
+       <item>seeder</item>
+       <item>sensor_sense</item>
+       <item>settings</item>
+       <item>shazam</item>
+       <item>shuttle_music</item>
+       <item>sim_info</item>
+       <item>skype</item>
+       <item>smart_remote</item>
+       <item>snapseed</item>
+       <item>songsterr</item>
+       <item>soundcloud</item>
+       <item>sound_recorder</item>
+       <item>spirit_fm</item>
+       <item>spotify_music</item>
+       <item>star_chart</item>
+       <item>sunrise_calendar</item>
+       <item>supertube</item>
+       <item>super_su</item>
+       <item>svoice</item>
+       <item>swiftkey</item>
+       <item>talk</item>
+       <item>tapatalk</item>
+       <item>tapatalk_new</item>
+       <item>tasker</item>
+       <item>team_viewer</item>
+       <item>telegram</item>
+       <item>terminal_emulator</item>
+       <item>teslaplugin</item>
+       <item>texdroider</item>
+       <item>the_simpsons</item>
+       <item>the_simpsons2</item>
+       <item>tinted_statusbar</item>
+       <item>titanium_backup</item>
+       <item>torch</item>
+       <item>trial_xtreme_four</item>
+       <item>trivia_crack</item>
+       <item>tumblr</item>
+       <item>tunein</item>
+       <item>twitter_new</item>
+       <item>uber</item>
+       <item>uccw</item>
+       <item>uc_browser</item>
+       <item>uc_mini</item>
+       <item>viber</item>
+       <item>vine</item>
+       <item>viper4android_fx</item>
+       <item>viral</item>
+       <item>voice_dialer</item>
+       <item>voice_search</item>
+       <item>walkman</item>
+       <item>we_chat</item>
+       <item>whatsapp</item>
+       <item>whatsapp_plus</item>
+       <item>wifi_file_transfer</item>
+       <item>wifi_file_transfer_pro</item>
+       <item>wta_live_atp</item>
+       <item>xposed</item>
+       <item>yahoo_mail</item>
+       <item>yahoo_messenger</item>
+       <item>yahoo_news</item>
+       <item>yahoo_sports</item>
+       <item>yahoo_weather</item>
+       <item>youtube</item>
+       <item>zarchive</item>
+       <item>zooper_free</item>
+       <item>zooper_pro</item>
+       <item>zynga_poker</item>
+
+
+
+
+
+
     </string-array>
 
-    <string-array name="purple">
-        <item>purple_circle</item>
-        <item>purple_rectangle</item>
-        <item>purple_square</item>
+
+
+
+
+
+
+
+    <string-array name="drawer">
+        <item>home_home2apps_button</item>
+
     </string-array>
 
-    <string-array name="red">
-        <item>red_circle</item>
-        <item>red_rectangle</item>
-        <item>red_square</item>
-    </string-array>
-
-    <string-array name="circles">
-        <item>amber_circle</item>
-        <item>blue_circle</item>
-        <item>purple_circle</item>
-        <item>red_circle</item>
-    </string-array>
-
-    <string-array name="rectangles">
-        <item>amber_rectangle</item>
-        <item>blue_rectangle</item>
-        <item>purple_rectangle</item>
-        <item>red_rectangle</item>
-    </string-array>
-
-    <string-array name="squares">
-        <item>amber_square</item>
-        <item>blue_square</item>
-        <item>purple_square</item>
-        <item>red_square</item>
-    </string-array>
 </resources>

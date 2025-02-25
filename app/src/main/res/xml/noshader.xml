@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <!--
 The IconShader in ADW Launcher implements a very basic machine
 for manipulating color values in icons. 
@@ -194,7 +195,7 @@ Change this document to shader.xml to enable.
     <exec t="OR" m="W" v="255"/>
     <exec t="OG" m="W" v="255"/>
     <exec t="OB" m="W" v="255"/>
-
+    
     <exec t="OR" m="S" v="IR"/>
     <exec t="OG" m="S" v="IG"/>
     <exec t="OB" m="S" v="IB"/>
@@ -205,15 +206,15 @@ Change this document to shader.xml to enable.
     <exec t="OR" m="W" v="IR"/>
     <exec t="OG" m="W" v="IG"/>
     <exec t="OB" m="W" v="IB"/>
-
+    
     <exec t="OR" m="S" v="II"/>
     <exec t="OG" m="S" v="II"/>
     <exec t="OB" m="S" v="II"/>
-
+    
     <exec t="OR" m="M" v="1.4"/>
     <exec t="OG" m="M" v="1.4"/>
     <exec t="OB" m="M" v="1.4"/>
-
+    
     <exec t="OR" m="A" v="II"/>
     <exec t="OG" m="A" v="II"/>
     <exec t="OB" m="A" v="II"/>
@@ -224,16 +225,16 @@ Change this document to shader.xml to enable.
     <exec t="OR" m="W" v="IR"/>
     <exec t="OG" m="W" v="IG"/>
     <exec t="OB" m="W" v="IB"/>
-
+    
     <exec t="OR" m="S" v="IH"/>
     <exec t="OG" m="S" v="IH"/>
     <exec t="OB" m="S" v="IH"/>
-
+    
     <exec t="OR" m="M" v="1.2"/>
     <exec t="OG" m="M" v="1.2"/>
     <exec t="OB" m="M" v="1.2"/>
-
+    
     <exec t="OR" m="A" v="IH"/>
     <exec t="OG" m="A" v="IH"/>
     <exec t="OB" m="A" v="IH"/>
-    -->
+    --> 

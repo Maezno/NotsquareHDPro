@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <appmap>
 
-    <!-- Contacts App -->
+    <!-- Chrome & Chrome Beta -->
     <item
-        class="com.android.contacts.DialtactsContactsEntryActivity"
-        name="people" />
+        name="chrome"
+        class="com.google.android.apps.chrome.Main" />
+
+    <!--  Antutu Benchmark -->
+    <item
+        name="andy"
+        class="com.antutu.ABenchMark.ABenchMarkStart" />
+
+    <item
+        name="music"
+        class="com.cyanogenmod.eleven.ui.activities.HomeActivity" />
+
+
 
 </appmap>
